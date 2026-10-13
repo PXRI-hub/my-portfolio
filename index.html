@@ -4,8 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
 <style>
-/* Layout concept: a developer's terminal. A hero shell prints the profile, then each
-   section is a file path (~/projects, ~/stack) holding window-style cards on a faint grid. */
+
 :root {
   --bg: #050a16;
   --bg-2: #0a1223;
@@ -331,7 +330,7 @@ footer { padding-block: 28px 40px; border-top: 1px solid var(--line); color: var
       button.textContent = text;
       setTimeout(function () { button.textContent = "Copy email"; }, 1800);
     }
-    // Clipboard can be refused in some views, so fall back to selecting the text.
+
     function select() {
       var range = document.createRange();
       range.selectNodeContents(mail);
