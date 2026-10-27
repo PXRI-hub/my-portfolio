@@ -1,102 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This part sets up the page title, fonts, and CSS file. -->
-
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width,initial-scale=1" name="viewport" />
+ <!-- This part sets up the page title, fonts, and CSS file. -->
+  <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-    Parneet Kreer
+   Parneet Kreer
   </title>
-  <meta
-    content="Computer science student at York University's Lassonde School of Engineering. Software development and data science projects."
-    name="description" />
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"
-    rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" />
-</head>
-
-<body>
+  <meta content="Computer science student at York University's Lassonde School of Engineering. Software development and data science projects." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
   <!-- The top menu lets people jump to different parts of my portfolio. -->
   <header class="bar">
-    <div class="wrap">
-      <a class="brand" href="#top">
-        parneet
-        <span>
-          @
-        </span>
-        york:~$
-      </a>
-      <nav aria-label="Sections">
-        <a href="#projects">
-          projects
-        </a>
-        <a href="#stack">
-          stack
-        </a>
-        <a href="#experience">
-          experience
-        </a>
-        <a href="#contact">
-          contact
-        </a>
-      </nav>
-    </div>
+   <div class="wrap">
+    <a class="brand" href="#top">
+     parneet
+     <span>
+      @
+     </span>
+     york:~$
+    </a>
+    <nav aria-label="Sections">
+     <a href="#projects">
+      projects
+     </a>
+     <a href="#stack">
+      stack
+     </a>
+     <a href="#experience">
+      experience
+     </a>
+     <a href="#contact">
+      contact
+     </a>
+    </nav>
+   </div>
   </header>
   <!-- Everything inside main is the main content of my portfolio. -->
   <main class="wrap" id="top">
-    <!-- This is the first section visitors see: my introduction and profile. -->
-    <div class="hero">
-      <div>
-        <div class="eyebrow">
-          <i>
-          </i>
-          On the lookout for new tech adventures
-        </div>
-        <h1>
-          Parneet
-          <em>
-            Kreer
-          </em>
-        </h1>
-        <p class="role">
-          &gt; CS student, York University
-        </p>
-        <p class="lead">
-          I'm a computer science in Software Development student at York University's Lassonde School of Engineering. I
-          build things you can click on: browser games, data science audits, and tools that test how AI systems fail.
-        </p>
-        <div class="btns">
-          <a class="btn primary" href="#projects">
-            View projects
-          </a>
-          <a class="btn" href="https://github.com/PXRI-hub" rel="noopener" target="_blank">
-            GitHub
-          </a>
-          <a class="btn" href="https://www.linkedin.com/in/parneet-kreer" rel="noopener" target="_blank">
-            LinkedIn
-          </a>
-          <a class="btn" href="Parneet_Kreer_Resumee.pdf" rel="noopener" target="_blank">
-            Resume
-          </a>
-        </div>
-      </div>
-      <div aria-label="Profile summary" class="win">
-        <div class="win-head">
-          <i>
-          </i>
-          <i>
-          </i>
-          <i>
-          </i>
-          <span>
-            profile.sh
-          </span>
-        </div>
-        <pre class="term"><span class="p">$</span> <span class="cmd">cat profile.json</span>
+   <!-- This is the first section visitors see: my introduction and profile. -->
+  <div class="hero">
+    <div>
+     <div class="eyebrow">
+      <i>
+      </i>
+      On the lookout for new tech adventures
+     </div>
+     <h1>
+      Parneet
+      <em>
+       Kreer
+      </em>
+     </h1>
+     <p class="role">
+      &gt; CS student, York University
+     </p>
+     <p class="lead">
+      I'm a computer science in Software Development student at York University's Lassonde School of Engineering. I build things you can click on: browser games, data science audits, and tools that test how AI systems fail.
+     </p>
+     <div class="btns">
+      <a class="btn primary" href="#projects">
+       View projects
+      </a>
+      <a class="btn" href="https://github.com/PXRI-hub" rel="noopener" target="_blank">
+       GitHub
+      </a>
+      <a class="btn" href="https://www.linkedin.com/in/parneet-kreer" rel="noopener" target="_blank">
+       LinkedIn
+      </a>
+      <a class="btn" href="Parneet_Kreer_Resumee.pdf" rel="noopener" target="_blank">
+       Resume
+      </a>
+     </div>
+    </div>
+    <div aria-label="Profile summary" class="win">
+     <div class="win-head">
+      <i>
+      </i>
+      <i>
+      </i>
+      <i>
+      </i>
+      <span>
+       profile.sh
+      </span>
+     </div>
+     <pre class="term"><span class="p">$</span> <span class="cmd">cat profile.json</span>
 {
   <span class="k">"school"</span>:    <span class="s">"York University, Lassonde"</span>,
   <span class="k">"program"</span>:   <span class="s">"CS for Software Dev"</span>,
@@ -114,554 +107,533 @@
   <span class="k">"location"</span>:  <span class="s">"Greater Toronto Area"</span>
 }
 <span class="p">$</span> <span class="caret"></span></pre>
-      </div>
     </div>
-    <!-- My projects are shown as cards with screenshots and links. -->
-    <section id="projects">
-      <div class="path">
-        ~/
-        <b>
-          projects
-        </b>
+   </div>
+   <!-- My projects are shown as cards with screenshots and links. -->
+  <section id="projects">
+    <div class="path">
+     ~/
+     <b>
+      projects
+     </b>
+    </div>
+    <h2>
+     Things I've built
+    </h2>
+    <p class="sub">
+     Five projects. Each one has a README that says what it does and what it can't do.
+    </p>
+    <!-- The grid keeps the project cards neatly arranged. -->
+  <div class="grid">
+     <article class="win card">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        scam-checker
+       </span>
+       <a href="https://github.com/PXRI-hub/scam-checker" rel="noopener" target="_blank">
+        repo
+       </a>
       </div>
-      <h2>
-        Things I've built
-      </h2>
-      <p class="sub">
-        Five projects. Each one has a README that says what it does and what it can't do.
-      </p>
-      <!-- The grid keeps the project cards neatly arranged. -->
-      <div class="grid">
-        <article class="win card">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              scam-checker
-            </span>
-            <a href="https://github.com/PXRI-hub/scam-checker" rel="noopener" target="_blank">
-              repo
-            </a>
-          </div>
-          <figure class="shot">
-            <img alt="Scam Checker result showing a Medium risk score with the delivery-scam phrases highlighted"
-              height="304" loading="lazy" src="images/project-1.jpg" width="900" />
-          </figure>
-          <div class="card-body">
-            <h3>
-              Scam Checker
-            </h3>
-            <p>
-              A Java server reads a message and flags scam warning signs by fixed rules: pressure to act fast, gift card
-              payments, fake delivery notices and lookalike links. A TypeScript page highlights each flagged phrase and
-              explains why.
-            </p>
-            <div class="fact">
-              32 tests pass &middot; rules only, no AI
-            </div>
-            <div class="note">
-              The live page is a visual demo. The scanner runs when you start the Java server yourself.
-            </div>
-            <div class="links">
-              <a href="https://pxri-hub.github.io/scam-checker/" rel="noopener" target="_blank">
-                visual demo
-              </a>
-              <a href="https://github.com/PXRI-hub/scam-checker" rel="noopener" target="_blank">
-                source
-              </a>
-            </div>
-            <div class="tags">
-              <span>
-                Java
-              </span>
-              <span>
-                TypeScript
-              </span>
-              <span>
-                Maven
-              </span>
-              <span>
-                JUnit
-              </span>
-              <span>
-                Vite
-              </span>
-            </div>
-          </div>
-        </article>
-        <article class="win card">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              3D-Rubics-Cube
-            </span>
-<a href="https://pxri-hub.github.io/3D-Rubiks-Cube/"
-   target="_blank"
-   rel="noopener noreferrer">
-  live
-</a>
-          </div>
-          <figure class="shot">
-            <img alt="The 3D Rubik's cube on a black background with Shuffle and Reset buttons" height="645"
-              loading="lazy" src="images/project-2.jpg" width="900" />
-          </figure>
-          <div class="card-body">
-            <h3>
-              Hand-Controlled Rubik's Cube
-            </h3>
-            <p>
-              A 3D cube in the browser that you control with your hands through the webcam. Pinch to rotate it, point
-              and swipe to turn a layer. Hand tracking and raycasting pick the piece under your fingertip.
-            </p>
-            <div class="fact">
-              live on GitHub Pages &middot; webcam stays in your browser
-            </div>
-            <div class="links">
-<a href="https://pxri-hub.github.io/3D-Rubiks-Cube/"
-   target="_blank"
-   rel="noopener noreferrer">
-  try it
-</a>
-              <a href="https://github.com/PXRI-hub/3D-Rubics-Cube" rel="noopener" target="_blank">
-                source
-              </a>
-            </div>
-            <div class="tags">
-              <span>
-                JavaScript
-              </span>
-              <span>
-                Three.js
-              </span>
-              <span>
-                MediaPipe
-              </span>
-            </div>
-          </div>
-        </article>
-        <article class="win card">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              adult-income-fairness
-            </span>
-            <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=income" rel="noopener" target="_blank">
-              repo
-            </a>
-          </div>
-          <figure class="shot">
-            <img
-              alt="Chart of the prediction gap between women and men, and between not-white and white people, under four methods"
-              height="322" loading="lazy" src="images/project-3.jpg" width="900" />
-          </figure>
-          <div class="card-body">
-            <h3>
-              Adult Income Prediction and Fairness Audit
-            </h3>
-            <p>
-              A course team project that grew into a fairness audit. We cleaned 30,162 census records and compared three
-              models, then I checked who the best model got wrong. Men were predicted above $50K about 26% of the time
-              versus 9% for women.
-            </p>
-            <div class="fact">
-              gap -0.18 &rarr; -0.08 after reweighing &middot; 0.6-pt accuracy cost
-            </div>
-            <div class="fact">
-              best model: gradient boosting, ROC-AUC 0.922
-            </div>
-            <div class="links">
-              <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=income" rel="noopener" target="_blank">
-                source on GitHub
-              </a>
-            </div>
-            <div class="tags">
-              <span>
-                Python
-              </span>
-              <span>
-                pandas
-              </span>
-              <span>
-                scikit-learn
-              </span>
-              <span>
-                XGBoost
-              </span>
-            </div>
-          </div>
-        </article>
-        <article class="win card">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              break-the-bot
-            </span>
-            <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=bot" rel="noopener" target="_blank">
-              repo
-            </a>
-          </div>
-          <figure class="shot">
-            <img alt="Break the Bot showing the Level 1 beaten message" height="743" loading="lazy"
-              src="images/project-4.jpg" width="900" />
-          </figure>
-          <div class="card-body">
-            <h3>
-              Break the Bot
-            </h3>
-            <p>
-              A chat-style web game with 10 levels. You try to get a local AI model to reveal a secret word, and each
-              level adds a new defence. I wrote the server checks, including a filter that catches spaced-out and
-              reversed spellings of the secret.
-            </p>
-            <div class="fact">
-              10 levels &middot; runs on a local model
-            </div>
-            <div class="links">
-              <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=bot" rel="noopener" target="_blank">
-                source on GitHub
-              </a>
-            </div>
-            <div class="tags">
-              <span>
-                Python
-              </span>
-              <span>
-                Flask
-              </span>
-              <span>
-                JavaScript
-              </span>
-              <span>
-                Ollama
-              </span>
-            </div>
-          </div>
-        </article>
-        <article class="win card wide">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              llm-audit
-            </span>
-            <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=llm-audit" rel="noopener" target="_blank">
-              repo
-            </a>
-          </div>
-          <div class="card-body">
-            <h3>
-              llm-audit
-            </h3>
-            <p>
-              A test harness that runs each prompt 5 times against a local chatbot to measure private-data leaks and
-              prompt-injection success. A control prompt separates the effect of an attack from normal behaviour. It
-              compares a plain prompt against marker-based and "sandwich" defences, and a 1B model against a 3B model.
-            </p>
-            <div class="links">
-              <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=llm-audit" rel="noopener" target="_blank">
-                source on GitHub
-              </a>
-            </div>
-            <div class="tags">
-              <span>
-                Python
-              </span>
-              <span>
-                Ollama
-              </span>
-              <span>
-                llama3.2
-              </span>
-            </div>
-          </div>
-        </article>
+      <figure class="shot">
+       <img alt="Scam Checker result showing a Medium risk score with the delivery-scam phrases highlighted" height="304" loading="lazy" src="images/project-1.jpg" width="900"/>
+      </figure>
+      <div class="card-body">
+       <h3>
+        Scam Checker
+       </h3>
+       <p>
+        A Java server reads a message and flags scam warning signs by fixed rules: pressure to act fast, gift card payments, fake delivery notices and lookalike links. A TypeScript page highlights each flagged phrase and explains why.
+       </p>
+       <div class="fact">
+        32 tests pass &middot; rules only, no AI
+       </div>
+       <div class="note">
+        The live page is a visual demo. The scanner runs when you start the Java server yourself.
+       </div>
+       <div class="links">
+        <a href="https://pxri-hub.github.io/scam-checker/" rel="noopener" target="_blank">
+         visual demo
+        </a>
+        <a href="https://github.com/PXRI-hub/scam-checker" rel="noopener" target="_blank">
+         source
+        </a>
+       </div>
+       <div class="tags">
+        <span>
+         Java
+        </span>
+        <span>
+         TypeScript
+        </span>
+        <span>
+         Maven
+        </span>
+        <span>
+         JUnit
+        </span>
+        <span>
+         Vite
+        </span>
+       </div>
       </div>
-    </section>
-    <!-- Here I show the languages and tools I work with. -->
-    <section id="stack">
-      <div class="path">
-        ~/
-        <b>
-          stack
-        </b>
+     </article>
+     <article class="win card">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        3D-Rubics-Cube
+       </span>
+       <a href="https://pxri-hub.github.io/3D-Rubiks-Cube/" rel="noopener" target="_blank">
+        live
+       </a>
       </div>
-      <h2>
-        What I work with
-      </h2>
-      <p class="sub">
-        Tools I've used in the projects above and in earlier work.
-      </p>
-      <div class="stack">
-        <div class="win">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              languages
-            </span>
-          </div>
-          <div class="chips">
-            <span>
-              Python
-            </span>
-            <span>
-              Java
-            </span>
-            <span>
-              TypeScript
-            </span>
-            <span>
-              JavaScript
-            </span>
-            <span>
-              C++
-            </span>
-            <span>
-              SQL
-            </span>
-            <span>
-              HTML/CSS
-            </span>
-          </div>
-        </div>
-        <div class="win">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              data + ml
-            </span>
-          </div>
-          <div class="chips">
-            <span>
-              pandas
-            </span>
-            <span>
-              NumPy
-            </span>
-            <span>
-              SciPy
-            </span>
-            <span>
-              scikit-learn
-            </span>
-            <span>
-              XGBoost
-            </span>
-            <span>
-              Matplotlib
-            </span>
-            <span>
-              fairness metrics
-            </span>
-          </div>
-        </div>
-        <div class="win">
-          <div class="win-head">
-            <i>
-            </i>
-            <i>
-            </i>
-            <i>
-            </i>
-            <span>
-              tools
-            </span>
-          </div>
-          <div class="chips">
-            <span>
-              Git/GitHub
-            </span>
-            <span>
-              Maven
-            </span>
-            <span>
-              JUnit
-            </span>
-            <span>
-              Vite
-            </span>
-            <span>
-              Flask
-            </span>
-            <span>
-              Three.js
-            </span>
-            <span>
-              MediaPipe
-            </span>
-            <span>
-              Ollama
-            </span>
-            <span>
-              Jupyter
-            </span>
-            <span>
-              Cloud development
-            </span>
-          </div>
-        </div>
+      <figure class="shot">
+       <img alt="The 3D Rubik's cube on a black background with Shuffle and Reset buttons" height="645" loading="lazy" src="images/project-2.jpg" width="900"/>
+      </figure>
+      <div class="card-body">
+       <h3>
+        Hand-Controlled Rubik's Cube
+       </h3>
+       <p>
+        A 3D cube in the browser that you control with your hands through the webcam. Pinch to rotate it, point and swipe to turn a layer. Hand tracking and raycasting pick the piece under your fingertip.
+       </p>
+       <div class="fact">
+        live on GitHub Pages &middot; webcam stays in your browser
+       </div>
+       <div class="links">
+        <a href="https://pxri-hub.github.io/3D-Rubiks-Cube/" rel="noopener" target="_blank">
+         try it
+        </a>
+        <a href="https://github.com/PXRI-hub/3D-Rubics-Cube" rel="noopener" target="_blank">
+         source
+        </a>
+       </div>
+       <div class="tags">
+        <span>
+         JavaScript
+        </span>
+        <span>
+         Three.js
+        </span>
+        <span>
+         MediaPipe
+        </span>
+       </div>
       </div>
-    </section>
-    <!-- This section lists my work and other experience. -->
-    <section id="experience">
-      <div class="path">
-        ~/
-        <b>
-          experience
-        </b>
+     </article>
+     <article class="win card">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        adult-income-fairness
+       </span>
+       <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=income" rel="noopener" target="_blank">
+        repo
+       </a>
       </div>
-      <h2>
-        Work and school
-      </h2>
-      <p class="sub">
-        Work outside of tech that taught me accuracy, customer service and running something myself.
-      </p>
-      <div class="log">
-        <div class="win entry">
-          <div class="when">
-            2025 to present
-          </div>
-          <div>
-            <h3>
-              B.A.Sc. Computer Science for Software Development
-            </h3>
-            <div class="org">
-              York University, Lassonde School of Engineering &middot; Data Science stream &middot; Toronto, ON
-            </div>
-            <ul>
-              <li>
-                Expected graduation: April 2029.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="win entry">
-          <div class="when">
-            Jun 2023 to present
-          </div>
-          <div>
-            <h3>
-              Customer Service Representative and Head Teller
-            </h3>
-            <div class="org">
-              CIBC
-            </div>
-            <ul>
-              <li>
-                Handle high-volume banking transactions accurately under internal policies and cash-handling controls.
-              </li>
-              <li>
-                Resolve client issues on the spot and match clients with suitable products through needs-based
-                conversations.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="win entry">
-          <div class="when">
-            May 2023 to present
-          </div>
-          <div>
-            <h3>
-              Founder
-            </h3>
-            <div class="org">
-              647even &middot; independent apparel brand
-            </div>
-            <ul>
-              <li>
-                Built the brand's website in JavaScript and HTML/CSS, and run product planning, customer communication
-                and sales.
-              </li>
-              <li>
-                Use customer feedback and sales information to decide which products to make and how to price them.
-              </li>
-            </ul>
-          </div>
-        </div>
+      <figure class="shot">
+       <img alt="Chart of the prediction gap between women and men, and between not-white and white people, under four methods" height="322" loading="lazy" src="images/project-3.jpg" width="900"/>
+      </figure>
+      <div class="card-body">
+       <h3>
+        Adult Income Prediction and Fairness Audit
+       </h3>
+       <p>
+        A course team project that grew into a fairness audit. We cleaned 30,162 census records and compared three models, then I checked who the best model got wrong. Men were predicted above $50K about 26% of the time versus 9% for women.
+       </p>
+       <div class="fact">
+        gap -0.18 &rarr; -0.08 after reweighing &middot; 0.6-pt accuracy cost
+       </div>
+       <div class="fact">
+        best model: gradient boosting, ROC-AUC 0.922
+       </div>
+       <div class="links">
+        <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=income" rel="noopener" target="_blank">
+         source on GitHub
+        </a>
+       </div>
+       <div class="tags">
+        <span>
+         Python
+        </span>
+        <span>
+         pandas
+        </span>
+        <span>
+         scikit-learn
+        </span>
+        <span>
+         XGBoost
+        </span>
+       </div>
       </div>
-    </section>
-    <!-- Visitors can find my email and get in touch here. -->
-    <section id="contact">
-      <div class="path">
-        ~/
-        <b>
-          contact
-        </b>
+     </article>
+     <article class="win card">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        break-the-bot
+       </span>
+       <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=bot" rel="noopener" target="_blank">
+        repo
+       </a>
       </div>
-      <h2>
-        Say hi
-      </h2>
-      <div class="win contact" style="margin-top:18px">
-        <p>
-          Always looking to learn grow in Tech. The fastest way to reach me is email.
-        </p>
-        <div class="mailrow">
-          <span class="mail" id="mail">
-            parneetk925@gmail.com
-          </span>
-          <button class="btn" id="copy" type="button">
-            Copy email
-          </button>
-        </div>
-        <div class="btns">
-          <a class="btn" href="https://www.linkedin.com/in/parneet-kreer" rel="noopener" target="_blank">
-            LinkedIn
-          </a>
-          <a class="btn" href="Parneet_Kreer_Resumee.pdf" rel="noopener" target="_blank">
-            Resume
-          </a>
-          <a class="btn" href="https://github.com/PXRI-hub" rel="noopener" target="_blank">
-            GitHub
-          </a>
-        </div>
+      <figure class="shot">
+       <img alt="Break the Bot showing the Level 1 beaten message" height="743" loading="lazy" src="images/project-4.jpg" width="900"/>
+      </figure>
+      <div class="card-body">
+       <h3>
+        Break the Bot
+       </h3>
+       <p>
+        A chat-style web game with 10 levels. You try to get a local AI model to reveal a secret word, and each level adds a new defence. I wrote the server checks, including a filter that catches spaced-out and reversed spellings of the secret.
+       </p>
+       <div class="fact">
+        10 levels &middot; runs on a local model
+       </div>
+       <div class="links">
+        <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=bot" rel="noopener" target="_blank">
+         source on GitHub
+        </a>
+       </div>
+       <div class="tags">
+        <span>
+         Python
+        </span>
+        <span>
+         Flask
+        </span>
+        <span>
+         JavaScript
+        </span>
+        <span>
+         Ollama
+        </span>
+       </div>
       </div>
-    </section>
-    <!-- Small information shown at the bottom of the website. -->
-    <footer>
-      <span>
-        &copy; 2026 Parneet Kreer
+     </article>
+     <article class="win card wide">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        llm-audit
+       </span>
+       <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=llm-audit" rel="noopener" target="_blank">
+        repo
+       </a>
+      </div>
+      <div class="card-body">
+       <h3>
+        llm-audit
+       </h3>
+       <p>
+        A test harness that runs each prompt 5 times against a local chatbot to measure private-data leaks and prompt-injection success. A control prompt separates the effect of an attack from normal behaviour. It compares a plain prompt against marker-based and "sandwich" defences, and a 1B model against a 3B model.
+       </p>
+       <div class="links">
+        <a href="https://github.com/PXRI-hub?tab=repositories&amp;q=llm-audit" rel="noopener" target="_blank">
+         source on GitHub
+        </a>
+       </div>
+       <div class="tags">
+        <span>
+         Python
+        </span>
+        <span>
+         Ollama
+        </span>
+        <span>
+         llama3.2
+        </span>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Here I show the languages and tools I work with. -->
+  <section id="stack">
+    <div class="path">
+     ~/
+     <b>
+      stack
+     </b>
+    </div>
+    <h2>
+     What I work with
+    </h2>
+    <p class="sub">
+     Tools I've used in the projects above and in earlier work.
+    </p>
+    <div class="stack">
+     <div class="win">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        languages
+       </span>
+      </div>
+      <div class="chips">
+       <span>
+        Python
+       </span>
+       <span>
+        Java
+       </span>
+       <span>
+        TypeScript
+       </span>
+       <span>
+        JavaScript
+       </span>
+       <span>
+        C++
+       </span>
+       <span>
+        SQL
+       </span>
+       <span>
+        HTML/CSS
+       </span>
+      </div>
+     </div>
+     <div class="win">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        data + ml
+       </span>
+      </div>
+      <div class="chips">
+       <span>
+        pandas
+       </span>
+       <span>
+        NumPy
+       </span>
+       <span>
+        SciPy
+       </span>
+       <span>
+        scikit-learn
+       </span>
+       <span>
+        XGBoost
+       </span>
+       <span>
+        Matplotlib
+       </span>
+       <span>
+        fairness metrics
+       </span>
+      </div>
+     </div>
+     <div class="win">
+      <div class="win-head">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span>
+        tools
+       </span>
+      </div>
+      <div class="chips">
+       <span>
+        Git/GitHub
+       </span>
+       <span>
+        Maven
+       </span>
+       <span>
+        JUnit
+       </span>
+       <span>
+        Vite
+       </span>
+       <span>
+        Flask
+       </span>
+       <span>
+        Three.js
+       </span>
+       <span>
+        MediaPipe
+       </span>
+       <span>
+        Ollama
+       </span>
+       <span>
+        Jupyter
+       </span>
+       <span>
+        Cloud development
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- This section lists my work and other experience. -->
+  <section id="experience">
+    <div class="path">
+     ~/
+     <b>
+      experience
+     </b>
+    </div>
+    <h2>
+     Work and school
+    </h2>
+    <p class="sub">
+     Work outside of tech that taught me accuracy, customer service and running something myself.
+    </p>
+    <div class="log">
+     <div class="win entry">
+      <div class="when">
+       2025 to present
+      </div>
+      <div>
+       <h3>
+        B.A.Sc. Computer Science for Software Development
+       </h3>
+       <div class="org">
+        York University, Lassonde School of Engineering &middot; Data Science stream &middot; Toronto, ON
+       </div>
+       <ul>
+        <li>
+         Expected graduation: April 2029.
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="win entry">
+      <div class="when">
+       Jun 2023 to present
+      </div>
+      <div>
+       <h3>
+        Customer Service Representative and Head Teller
+       </h3>
+       <div class="org">
+        CIBC
+       </div>
+       <ul>
+        <li>
+         Handle high-volume banking transactions accurately under internal policies and cash-handling controls.
+        </li>
+        <li>
+         Resolve client issues on the spot and match clients with suitable products through needs-based conversations.
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="win entry">
+      <div class="when">
+       May 2023 to present
+      </div>
+      <div>
+       <h3>
+        Founder
+       </h3>
+       <div class="org">
+        647even &middot; independent apparel brand
+       </div>
+       <ul>
+        <li>
+         Built the brand's website in JavaScript and HTML/CSS, and run product planning, customer communication and sales.
+        </li>
+        <li>
+         Use customer feedback and sales information to decide which products to make and how to price them.
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Visitors can find my email and get in touch here. -->
+  <section id="contact">
+    <div class="path">
+     ~/
+     <b>
+      contact
+     </b>
+    </div>
+    <h2>
+     Say hi
+    </h2>
+    <div class="win contact" style="margin-top:18px">
+     <p>
+      Always looking to learn grow in Tech. The fastest way to reach me is email.
+     </p>
+     <div class="mailrow">
+      <span class="mail" id="mail">
+       parneetk925@gmail.com
       </span>
-      <span>
-        Built by hand with HTML, CSS and a little JavaScript
-      </span>
-    </footer>
+      <button class="btn" id="copy" type="button">
+       Copy email
+      </button>
+     </div>
+     <div class="btns">
+      <a class="btn" href="https://www.linkedin.com/in/parneet-kreer" rel="noopener" target="_blank">
+       LinkedIn
+      </a>
+      <a class="btn" href="Parneet_Kreer_Resumee.pdf" rel="noopener" target="_blank">
+       Resume
+      </a>
+      <a class="btn" href="https://github.com/PXRI-hub" rel="noopener" target="_blank">
+       GitHub
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- Small information shown at the bottom of the website. -->
+  <footer>
+    <span>
+     &copy; 2026 Parneet Kreer
+    </span>
+    <span>
+     Built by hand with HTML, CSS and a little JavaScript
+    </span>
+   </footer>
   </main>
   <!-- JavaScript makes the copy-email button work. -->
   <script defer src="script.js">
   </script>
-</body>
-
+ </body>
 </html>
